@@ -39,7 +39,7 @@ body {
     margin: 0 auto;
   }
   .contain.narrow {
-    max-width: 553px;
+    max-width: 1400px;
   }
   .contain:before,
   .contain:after {
