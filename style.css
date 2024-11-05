@@ -1,0 +1,152 @@
+body {
+    color: #404040;
+  }
+  figure,
+  img {
+    max-width: 100%;
+  }
+  figure {
+    margin: 80px 0;
+  }
+  figure img {
+    margin-bottom: 30px;
+  }
+  figure figcaption {
+    font-family: 'Lora';
+    font-size: 16px;
+    line-height: 1.56;
+    font-style: italic;
+  }
+  a {
+    color: #ffb400;
+    text-decoration: none;
+  }
+  .invert {
+    color: #fff;
+  }
+  .hero {
+    background: #404040 url("https://dl.dropboxusercontent.com/u/8254962/rytmi1.jpg") no-repeat;
+    background-size: cover;
+  }
+  .hero .contain:before {
+    margin-bottom: 100px;
+  }
+  .hero .contain:after {
+    margin-top: 180px;
+  }
+  .contain {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .contain.narrow {
+    max-width: 553px;
+  }
+  .contain:before,
+  .contain:after {
+    display: block;
+    content: '';
+    width: 0px;
+    height: 0.1px;
+  }
+  .contain:before {
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+  .contain:after {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'bebas_neuebold';
+  }
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a {
+    color: #ffb400;
+    text-decoration: none;
+  }
+  p {
+    font-family: 'Lora';
+    margin-bottom: 1em;
+  }
+  p.lede {
+    font-style: italic;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  p.lede em {
+    font-style: normal;
+  }
+  h1 {
+    font-size: 110px;
+    font-family: Palatino;
+    line-height: 1.1;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  h4 + h1 {
+    margin-top: 0.35em;
+  }
+  h2 {
+    font-size: 52px;
+    font-family: Palatino;
+    line-height: 1.15;
+    margin-top: 1.05em;
+    margin-bottom: 0.7em;
+  }
+  h3 {
+    font-size: 30px;
+    font-family: Palatino;
+    line-height: 1.2;
+    margin-top: 1.35em;
+    margin-bottom: 0.9em;
+  }
+  h4 {
+    font-size: 20px;
+    font-family: Palatino;
+    line-height: 1.2;
+    margin-top: 1.8em;
+    margin-bottom: 1.2em;
+  }
+  hr {
+    border: none;
+    font-family: Palatino;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 52px;
+  }
+  hr:before {
+    display: block;
+    content: '…';
+    text-align: center;
+    font-family: 'Lora';
+    color: #404040;
+    font-size: 40px;
+    width: 100%;
+  }
+  p {
+    font-size: 19px;
+    line-height: 29px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  p.dropcap:first-letter {
+    font-family: 'bebas_neuebold';
+    font-size: 106px;
+    line-height: 90px;
+    height: 100px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+  }
+  blockquote {
+    font-family: Palatino;
+    border-left: 5px solid #787777;
+    padding: 0.5em 15px;
+    margin: 1.5em 10px;
+    font-size: 24px 
+  }
